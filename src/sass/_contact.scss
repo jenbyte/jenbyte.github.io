@@ -1,6 +1,5 @@
 .contact {
   @include flex();
-  // height: 80vh;
 
   .info-wrapper {
     margin: 1rem 0;
@@ -8,6 +7,9 @@
 
     @include desktop {
       margin: 2rem 0;
+    }
+    @include tv {
+      padding-top: 1rem;
     }
   }
   .text-wrapper {
@@ -79,11 +81,9 @@
 
 .textField {
   color: $color-main;
-  // background: $color-main;
 }
 
 .contact-form {
-  display: flex;
   @include flex(column, space-between, flex-end);
 }
 
@@ -99,15 +99,6 @@
 
 .contact-images {
   display: none;
-
-  // @include tablet {
-  //   display: flex;
-  //   @include flex(row, center, center);
-  //   // flex: 1;
-  //   flex-wrap: wrap;
-  //   margin: 1rem 0 3rem;
-  //   width: 100vw;
-  // }
 }
 .contact-img {
   max-height: 180px;
@@ -128,9 +119,8 @@
 .credit {
   color: $grey;
   font-size: $xxs;
-  display: flex;
   @include flex(row);
-  margin: 1rem 0;
+  padding-bottom: 1rem;
   width: 100%;
 
   @include tablet {
@@ -151,7 +141,6 @@
  * Form 
  */
 .form {
-  display: flex;
   @include flex(column, null, null);
   max-width: 85%;
   margin: auto;
@@ -169,6 +158,7 @@
 }
 
 .video {
+  padding-top: 0;
   width: 100vw;
   height: auto;
 }

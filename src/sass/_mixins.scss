@@ -8,6 +8,11 @@
     @content;
   }
 }
+@mixin desktopL {
+  @media (min-width: $desktopL-width) {
+    @content;
+  }
+}
 @mixin tv {
   @media (min-width: $tv-width) {
     @content;

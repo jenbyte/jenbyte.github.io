@@ -20,6 +20,10 @@
     font-size: $title-desktop;
     line-height: 58px;
   }
+  @include tv {
+    font-size: $title-tv;
+    line-height: $title-tv;
+  }
 }
 
 .title-wrapper {
@@ -33,6 +37,9 @@
     @include desktop {
       font-size: $title-desktop * 0.9;
     }
+    @include tv {
+      font-size: $title-tv * 0.85;
+    }
   }
 }
 
@@ -44,13 +51,19 @@
 
   @include tablet {
     font-family: $font-semibold;
-    font-size: $md;
+    font-size: 15px;
     letter-spacing: 2.5px;
     line-height: 1;
   }
-
   @include desktop {
     font-size: $lg;
+    margin-top: 9px;
+  }
+  @include desktopL {
+    font-size: 19px;
+  }
+  @include tv {
+    font-size: 21px;
   }
 }
 
@@ -68,11 +81,12 @@
   @include tablet {
     font-size: $title-tablet;
     font-weight: 600;
-    // padding-left: 1.5rem;
   }
   @include desktop {
     line-height: 1.1;
-    // padding-left: 2rem;
+  }
+  @include tv {
+    font-size: $title-desktop;
   }
 }
 .titlewrapper {
@@ -83,14 +97,24 @@
  * Header 
  */
 .header-wrapper {
-  display: flex;
   @include flex();
   height: 55px;
-  margin-top: 3rem;
+  margin-top: 1rem;
 
   @include tablet {
     height: 60px;
     width: 94vw;
+  }
+  @include desktop {
+    margin-bottom: 1rem;
+    width: 90vw;
+  }
+  @include desktopL {
+    margin-top: 2rem;
+  }
+  @include tv {
+    margin-bottom: 2rem;
+    width: 80vw;
   }
 }
 
@@ -102,6 +126,12 @@
 
   @include tablet {
     width: 94vw;
+  }
+  @include desktop {
+    width: 90vw;
+  }
+  @include tv {
+    width: 70vw;
   }
 }
 .greybg-mob {

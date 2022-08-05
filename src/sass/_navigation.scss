@@ -1,17 +1,14 @@
 .menubar {
-  display: flex;
   @include flex(row, space-between, center);
   width: 100%;
 }
 .navlinks {
-  display: flex;
   @include flex(row, space-evenly, center);
   height: 80px;
   padding: 0 20px;
   width: 75%;
 
   @include tablet {
-    // background: #171717;
     height: 80px;
     margin: auto;
     width: 65%;
@@ -33,7 +30,6 @@
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-  display: flex;
   @include flex(column, space-between, center);
   letter-spacing: 1px;
   opacity: 0.8;
@@ -50,7 +46,6 @@
   @include tablet {
     font-size: $xxs;
     letter-spacing: 1.5px;
-    // height: 40px;/
   }
   @include desktop {
     font-size: 11px;
@@ -62,9 +57,6 @@
 
     @include tablet {
       height: 50px;
-    }
-    @include desktop {
-      // height: 54px;
     }
   }
 }
@@ -103,14 +95,6 @@
       background-color: $color-main;
     }
   }
-  // .github-hover {
-  //   display: none;
-  //   &:hover {
-  //     display: block;
-  //     height: 50px;
-  //     width: 50px;
-  //   }
-  // }
 }
 .active {
   text-decoration: none;
@@ -123,7 +107,6 @@
   position: fixed;
   top: 1.1rem;
   right: 7%;
-  display: flex;
   @include flex();
   z-index: 100;
 
@@ -131,20 +114,21 @@
     top: 5%;
   }
   @include desktop {
-    top: 7%;
+    top: 3%;
     right: 5%;
+  }
+  @include tv {
+    top: 7%;
+    right: 15%;
   }
 
   .bmo-btn {
-    // background: rgba(255, 255, 255, 0.9);
     background: $color-sec;
     opacity: 0.85;
     color: $light;
     position: relative;
     padding: 4px 7px;
     text-shadow: 0px -1px 5px darkblue;
-    // width: 52px;
-    // height: 50px;
     z-index: 100;
 
     &:hover {
@@ -161,9 +145,13 @@
       width: 67px;
       height: 65px;
     }
+    @include tv {
+      width: 74px;
+      height: 72px;
+    }
 
     .bmo-icon {
-      align-self: center;
+      @include flex();
       color: $light;
       width: 48px;
       height: auto;
@@ -177,10 +165,12 @@
       @include desktop {
         width: 54px;
       }
+      @include tv {
+        width: 60px;
+      }
     }
 
     .bmo-text {
-      // color: $light;
       font-family: 'Courier New', Courier, monospace;
       font-size: $sm;
       font-weight: 600;

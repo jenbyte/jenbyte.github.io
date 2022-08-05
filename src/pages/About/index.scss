@@ -3,22 +3,27 @@
 @import '../../sass/container';
 
 .about-content-wrapper {
-  display: flex;
   @include flex();
   width: 100%;
   margin: 1rem auto;
+  padding-bottom: 2rem;
 
   @include desktop {
     @include flex();
     margin: 2rem auto;
     width: 80%;
   }
+  @include desktopL {
+    width: 70%;
+  }
+  @include tv {
+    width: 55%;
+  }
 
   .text {
     color: $light;
     font-family: $font-main;
     font-size: $text-mob;
-    // line-height: 1.8;
 
     @include tablet {
       font-size: $text-tab;

@@ -17,7 +17,6 @@
 
 .item-container {
   padding: 3rem 0;
-  display: flex;
   @include flex();
   flex: 1;
   font-size: $md;
@@ -26,13 +25,8 @@
     padding: 5% 0;
   }
 
-  @include desktop {
-    // max-height: 50vh;
-  }
-
   .info-wrapper {
     color: $light;
-    display: flex;
     @include flex();
     padding: 0 1.5rem;
 
@@ -42,7 +36,7 @@
       max-width: 520px;
       width: 100%;
     }
-    @include tv {
+    @include desktopL {
       padding: 0 75px;
     }
   }
@@ -65,9 +59,7 @@
 .description {
   margin-bottom: 1.5rem;
   text-align: center;
-  @include tablet {
-    // padding: 0 1rem;
-  }
+
   @include desktop {
     margin-bottom: 0;
     padding: 0;
@@ -102,7 +94,6 @@
  * Images 
  */
 .img-wrapper {
-  display: flex;
   @include flex();
   width: 100%;
 
@@ -127,7 +118,7 @@
     max-height: auto;
   }
 
-  @include tv {
+  @include desktopL {
     max-height: 420px;
   }
 }
@@ -147,7 +138,7 @@
     padding-left: 20px;
     height: 520px;
   }
-  @include tv {
+  @include desktopL {
     height: 600px;
   }
 }
@@ -157,13 +148,11 @@
  */
 .direction {
   @include desktop {
-    display: flex;
     @include flex(row, center, center);
   }
 }
 .direction-rev {
   @include desktop {
-    display: flex;
     @include flex(row-reverse, center, center);
     width: 100%;
   }

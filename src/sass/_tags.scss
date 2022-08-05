@@ -13,20 +13,16 @@
   }
 }
 .bg-wrapper {
-  display: flex;
   @include flex(column, space-between, null);
   padding-left: 0.5rem;
   height: 100%;
-  // width: 100vw;
 
   @include tablet {
     padding-left: 1rem;
   }
 }
 .bodytags {
-  display: flex;
   @include flex(column, space-between, null);
-  // height: 100%;
   padding-left: 1rem;
 }
 
@@ -35,13 +31,7 @@
   @include tablet {
     padding-left: 1rem;
   }
-
-  @include desktop {
-    // padding: 1rem 0;
-  }
 }
 .children-home {
-  display: flex;
   @include flex(column, center, null);
-  // height: 110%;
 }

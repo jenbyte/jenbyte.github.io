@@ -19,8 +19,6 @@ class VideoPlayer extends Component {
   };
 
   render() {
-    console.log('VP', this.props);
-
     return (
       <div className="video-wrapper">
         {this.state.width < 400 ? (

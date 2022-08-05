@@ -30,7 +30,7 @@
   margin-top: 3rem;
   font-family: $font-main;
 
-  @include tablet {
+  @include desktop {
     margin-top: 4rem;
   }
   button {
@@ -56,6 +56,12 @@
     @include tablet {
       font-size: $sm;
     }
+    @include desktopL {
+      font-size: 15px;
+    }
+    @include tv {
+      font-size: $md;
+    }
   }
 }
 .slide:hover,
@@ -77,7 +83,7 @@
     position: absolute;
     bottom: 3%;
     left: 50%;
-    width: 100px;
+    right: 50%;
 
     &:hover {
       color: $color-main-dark;
@@ -89,17 +95,17 @@
     }
   }
   .scroll-ani {
-    animation: scroll-down 2.5s infinite alternate;
+    animation: scroll-down 2s infinite alternate;
   }
 }
 @keyframes scroll-down {
   0% {
     transform: translate(0, 0);
   }
-  20% {
+  10% {
     transform: translate(0, 10px);
   }
-  40% {
+  20% {
     transform: translate(0, 0);
   }
 }

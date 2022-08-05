@@ -1,18 +1,15 @@
 .container {
   @include flex();
-  // padding: 0 5%;
   min-height: 100vh;
   padding: 0 10%;
-  // margin: auto;
-
-  @include tablet {
-    // padding: 0 2rem;
+  @include desktop {
+    padding: 0 15%;
+    padding-bottom: 2rem;
   }
 }
 
 .form-container {
   width: 100%;
-  // height: 100vh;
 }
 
 // -----------------------
@@ -27,6 +24,12 @@
     background-size: contain;
     padding-left: 10%;
   }
+  @include desktopL {
+    padding-left: 15%;
+  }
+  @include tv {
+    padding-left: 20%;
+  }
 
   .subcontainer {
     @include flex(column-reverse);
@@ -35,7 +38,14 @@
     @include desktop {
       @include flex(row, space-between);
       margin-top: 0;
+      margin-bottom: 1rem;
       width: 100%;
+    }
+    @include desktopL {
+      margin-bottom: 2rem;
+    }
+    @include tv {
+      margin-bottom: 5rem;
     }
   }
 }
@@ -44,15 +54,13 @@
 .about {
   display: flex;
   padding: 0 1.5rem;
-  // width: 100vw;
-  // height: auto;
 
   @include tablet {
     padding: 0 2rem;
   }
 
   @include desktop {
-    @include flex(column, space-evenly, flex-start);
+    @include flex(column, space-evenly);
   }
 }
 
