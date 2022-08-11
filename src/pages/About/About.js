@@ -1,7 +1,7 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core';
 import styles from './index.scss';
-import profileMobile from '../../images/redbg-mobile.png';
+import profilePic from '../../images/LinkedIn-profile.jpeg';
 import GreyMob from '../../images/bg/GreyMob.png';
 import GreyDesk from '../../images/bg/GreyDesk.png';
 import VideoPlayer from '../../components/VideoPlayer';
@@ -19,18 +19,16 @@ const About = () => {
 
       <section className="about-content-wrapper">
         <img
-          src={profileMobile}
+          src={profilePic}
           className="profile-mobile"
           width="300"
           alt="Jennifer Yiu"
         />
 
         <p className="text">
-          I am a full-stack developer passionate about sustainability,
-          community-building, and the future of tech. My curiosity about the
-          world around me drives me to learn and grow - whether it’s learning
-          how to drive a manual car, solve a Rubik’s cube, became a certified
-          scuba diver, understand blockchain, or backpack in Europe and
+          I am a full-stack developer who's passionate about the future of tech, problem-solving, and improving team dynamics. My curiosity about the
+          world around me drives me to learn and grow - whether it’s memorizing over 750 digits of pi, solving a Rubik’s cube, becoming a certified
+          scuba diver, understanding blockchain, or backpacking alone in Europe and
           Southeast Asia.
         </p>
         <p className="text">
@@ -51,13 +49,11 @@ const About = () => {
           My primary focus is in front-end technologies including
           <span className="techs">
             {' '}
-            CSS, SCSS, React, React-Native, JavaScript, jQuery, and PHP.{' '}
+            React, React-Native, JavaScript, jQuery, CSS, SCSS, and PHP.{' '}
           </span>
           I've also been working a lot with back-end technologies such as{' '}
-          <span className="techs">Python, SQL and Django</span> and am
-          interested to learn more! I want to continue develop my skills and
-          improve on writing code. I have great energy, a "can-do" attitude, and
-          I'm always working towards improving myself everyday.
+          <span className="techs">Python, SQL, Django, and Grails/Groovy</span> and am
+          interested to learn more! I have a growth mindset with a passion to learn and to build the best project in any team I'm in.
         </p>
         <VideoPlayer link={urllink} />
         <p className="text">
