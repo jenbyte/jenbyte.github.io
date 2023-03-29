@@ -2,6 +2,11 @@
 
 Built with React, Material-UI, and SCSS!
 
+## Clone Repo
+
+Instal dependecies with `yarn install` or `npm install`
+
+
 ## Start developing
 
 Navigate into your new site’s directory and start it up.

@@ -7,7 +7,8 @@ import GreyDesk from '../../images/bg/GreyDesk.png';
 import VideoPlayer from '../../components/VideoPlayer';
 
 const About = () => {
-  const urllink = 'https://youtu.be/E7lBtEz4eX4';
+  //3x3 https://youtu.be/E7lBtEz4eX4
+  const urllink = 'http://youtu.be/_dE-DZQ7IMM';
 
   return (
     <div className="container about" id="about">

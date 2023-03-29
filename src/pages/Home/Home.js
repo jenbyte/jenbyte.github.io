@@ -29,14 +29,14 @@ const Home = () => {
                   </h1>
                 </div>
 
-                <h1 className="home-title third-line">Full-Stack Developer.</h1>
+                <h1 className="home-title third-line">Software Developer.</h1>
               </div>
             </Link>
           </Slide>
           <h2 className="subheading">
             {/* Dynamic / Talented / Passionate */}
             {/* Problem Solver / Resourceful / Creative */}
-            Adaptable / Resourceful / Problem Solver
+            Leadership / Resourceful / Problem Solver
           </h2>
 
           <div className="btn-wrapper">
