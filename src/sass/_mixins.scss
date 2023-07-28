@@ -1,22 +1,14 @@
 @mixin tablet {
-  @media (min-width: $tablet-width) {
-    @content;
-  }
+  @media (min-width: $tablet-width) { @content; }
 }
 @mixin desktop {
-  @media (min-width: $desktop-width) {
-    @content;
-  }
+  @media (min-width: $desktop-width) { @content; }
 }
 @mixin desktopL {
-  @media (min-width: $desktopL-width) {
-    @content;
-  }
+  @media (min-width: $desktopL-width) { @content; }
 }
 @mixin tv {
-  @media (min-width: $tv-width) {
-    @content;
-  }
+  @media (min-width: $tv-width) { @content; }
 }
 
 // Structure

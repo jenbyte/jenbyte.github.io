@@ -32,7 +32,7 @@ const Contact = () => {
         </div>
 
         <div className="">
-          <VideoPlayer link="http://youtu.be/_dE-DZQ7IMM" />
+          {/* <VideoPlayer link="http://youtu.be/_dE-DZQ7IMM" /> */}
         </div>
 
         <div className="icon-container">
@@ -64,7 +64,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="contact-images">
+      <div className={"contact-images contact-conatiner"}>
         <img
           src={headshot}
           className="contact-img"
