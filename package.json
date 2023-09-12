@@ -1,6 +1,6 @@
 {
   "name": "jenbyte.github.io",
-  "version": "0.1.0",
+  "version": "2.1.0",
   "private": true,
   "homepage": "https://jenbyte.github.io/portfolio",
   "author": "Jennifer Yiu",
@@ -11,6 +11,7 @@
     "final-form": "^4.12.0",
     "gh-pages": "^2.0.1",
     "ionicons": "^4.5.6",
+    "node-sass": "^4.14.1",
     "react": "^16.8.6",
     "react-animated-text": "^0.1.4",
     "react-dom": "^16.8.6",
@@ -23,11 +24,10 @@
     "react-scroll": "^1.7.11",
     "react-spring": "^8.0.19",
     "recharts": "^1.5.0",
-    "sass": "^1.64.1",
     "typeface-roboto": "^0.0.54"
   },
   "scripts": {
-    "start": "babel-node node_modules/react-scripts/bin/react-scripts.js start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "yarn run build",
@@ -47,7 +47,6 @@
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/node": "^7.22.6",
-    "@babel/preset-env": "^7.22.9",
-    "webpack-dev-server": "^4.15.1"
+    "@babel/preset-env": "^7.22.9"
   }
 }
