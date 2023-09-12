@@ -23,7 +23,7 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.7.11",
     "react-spring": "^8.0.19",
-    "recharts": "^1.5.0",
+    "recharts": "^2.8.0",
     "typeface-roboto": "^0.0.54"
   },
   "scripts": {
