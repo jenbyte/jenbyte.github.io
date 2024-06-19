@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.69a29408.css",
-    "main.js": "/portfolio/static/js/main.9a231604.js",
-    "static/media/FBOnboardGiphy.gif": "/portfolio/static/media/FBOnboardGiphy.e50bc02b2ad65efaf7d3.gif",
-    "static/media/msb.gif": "/portfolio/static/media/msb.999a6fcddbc597e84ce4.gif",
-    "static/media/RedAcademyYVR_Headshots_Jennifer_20181207_040.jpg": "/portfolio/static/media/RedAcademyYVR_Headshots_Jennifer_20181207_040.689ff28ebd2d11d6c3b3.jpg",
-    "static/media/BoomItems.png": "/portfolio/static/media/BoomItems.f076efa171b466ab389f.png",
-    "static/media/calmversation.png": "/portfolio/static/media/calmversation.2e6230a883b13c7790b6.png",
-    "static/media/hack4humanity.png": "/portfolio/static/media/hack4humanity.4fa7f5a4cbfd48f925be.png",
-    "static/media/scubadive.png": "/portfolio/static/media/scubadive.88d5a0da4d1b06cba2af.png",
-    "static/media/BoomShare.png": "/portfolio/static/media/BoomShare.86b3585026f8c5940ed3.png",
-    "static/media/R10.png": "/portfolio/static/media/R10.828f7d7225044a86991d.png",
-    "static/media/BoomHome.png": "/portfolio/static/media/BoomHome.3d6c82f6a30ec04ffda1.png",
-    "static/media/profile-pic.jpeg": "/portfolio/static/media/profile-pic.02e9ab3e527f6d3f882f.jpeg",
-    "static/media/vietnam-motorbike.jpg": "/portfolio/static/media/vietnam-motorbike.3cf11fb839cfd6b73c0f.jpg",
-    "static/media/GreyMob.png": "/portfolio/static/media/GreyMob.9a59e60ab352f45b70c9.png",
-    "static/media/bangkok-mural.jpg": "/portfolio/static/media/bangkok-mural.99dbe0535c9ca4d35535.jpg",
-    "static/media/GreyDesk.png": "/portfolio/static/media/GreyDesk.14d0525f2408a61980e1.png",
-    "static/media/angellist.png": "/portfolio/static/media/angellist.bfe32c85a6730af50671.png",
-    "index.html": "/portfolio/index.html",
-    "main.69a29408.css.map": "/portfolio/static/css/main.69a29408.css.map",
-    "main.9a231604.js.map": "/portfolio/static/js/main.9a231604.js.map"
+    "main.css": "/static/css/main.69a29408.css",
+    "main.js": "/static/js/main.19b37815.js",
+    "static/media/FBOnboardGiphy.gif": "/static/media/FBOnboardGiphy.e50bc02b2ad65efaf7d3.gif",
+    "static/media/msb.gif": "/static/media/msb.999a6fcddbc597e84ce4.gif",
+    "static/media/RedAcademyYVR_Headshots_Jennifer_20181207_040.jpg": "/static/media/RedAcademyYVR_Headshots_Jennifer_20181207_040.689ff28ebd2d11d6c3b3.jpg",
+    "static/media/BoomItems.png": "/static/media/BoomItems.f076efa171b466ab389f.png",
+    "static/media/calmversation.png": "/static/media/calmversation.2e6230a883b13c7790b6.png",
+    "static/media/hack4humanity.png": "/static/media/hack4humanity.4fa7f5a4cbfd48f925be.png",
+    "static/media/scubadive.png": "/static/media/scubadive.88d5a0da4d1b06cba2af.png",
+    "static/media/BoomShare.png": "/static/media/BoomShare.86b3585026f8c5940ed3.png",
+    "static/media/R10.png": "/static/media/R10.828f7d7225044a86991d.png",
+    "static/media/BoomHome.png": "/static/media/BoomHome.3d6c82f6a30ec04ffda1.png",
+    "static/media/profile-pic.jpeg": "/static/media/profile-pic.02e9ab3e527f6d3f882f.jpeg",
+    "static/media/vietnam-motorbike.jpg": "/static/media/vietnam-motorbike.3cf11fb839cfd6b73c0f.jpg",
+    "static/media/GreyMob.png": "/static/media/GreyMob.9a59e60ab352f45b70c9.png",
+    "static/media/bangkok-mural.jpg": "/static/media/bangkok-mural.99dbe0535c9ca4d35535.jpg",
+    "static/media/GreyDesk.png": "/static/media/GreyDesk.14d0525f2408a61980e1.png",
+    "static/media/angellist.png": "/static/media/angellist.bfe32c85a6730af50671.png",
+    "index.html": "/index.html",
+    "main.69a29408.css.map": "/static/css/main.69a29408.css.map",
+    "main.19b37815.js.map": "/static/js/main.19b37815.js.map"
   },
   "entrypoints": [
     "static/css/main.69a29408.css",
-    "static/js/main.9a231604.js"
+    "static/js/main.19b37815.js"
   ]
 }
