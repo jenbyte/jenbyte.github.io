@@ -2,6 +2,7 @@
 @mixin desktop {
   @media (min-width: $desktop-width) { @content; }
 }
+
 // VIDEO
 .player-wrapper-row {
   display: none;

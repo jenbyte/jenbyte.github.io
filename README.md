@@ -4,7 +4,7 @@ Built with React, Material-UI, and SCSS!
 
 ## Clone Repo
 
-Instal dependecies with `yarn install` or `npm install`
+Install dependecies with `yarn install` or `npm install`
 
 
 ## Start developing
