@@ -13,7 +13,7 @@ Navigate into your new site’s directory and start it up.
 
 ```
 cd portfolio/
-yarn start
+npm start
 ```
 
 Open the source code and start editing!

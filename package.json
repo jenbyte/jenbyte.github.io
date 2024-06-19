@@ -2,7 +2,7 @@
   "name": "jenbyte.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jenbyte.github.io/",
+  "homepage": "https://jenbyte.github.io",
   "author": "Jennifer Yiu",
   "description": "My portfolio",
   "dependencies": {
