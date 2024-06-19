@@ -2,7 +2,7 @@
   "name": "jenbyte.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jenbyte.github.io",
+  "homepage": "https://jenbyte.github.io/",
   "author": "Jennifer Yiu",
   "description": "My portfolio",
   "dependencies": {
@@ -30,7 +30,7 @@
     "start": "babel-node node_modules/react-scripts/bin/react-scripts.js start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "scss": "node-sass --watch scss -o css"
