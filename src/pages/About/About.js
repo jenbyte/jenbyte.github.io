@@ -1,7 +1,7 @@
 import React from "react";
 import { withStyles } from "@material-ui/core";
 import styles from "./index.scss";
-import profilePic from "../../images/LinkedIn-profile.jpeg";
+import profilePic from "../../images/profile-pic.jpeg";
 import GreyMob from "../../images/bg/GreyMob.png";
 import GreyDesk from "../../images/bg/GreyDesk.png";
 import VideoPlayer from "../../components/VideoPlayer";

@@ -2,7 +2,7 @@
   "name": "jenbyte.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jenbyte.github.io/portfolio",
+  "homepage": "https://jenbyte.github.io",
   "author": "Jennifer Yiu",
   "description": "My portfolio",
   "dependencies": {
@@ -10,7 +10,6 @@
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
     "final-form": "^4.12.0",
-    "gh-pages": "^2.0.1",
     "ionicons": "^4.5.6",
     "react": "^16.8.6",
     "react-animated-text": "^0.1.4",
@@ -49,6 +48,7 @@
     "@babel/core": "^7.22.9",
     "@babel/node": "^7.22.6",
     "@babel/preset-env": "^7.22.9",
+    "gh-pages": "^6.1.1",
     "webpack-dev-server": "^4.15.1"
   }
 }
