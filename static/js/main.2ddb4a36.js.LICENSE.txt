@@ -32,6 +32,12 @@ object-assign
     * @license MIT
     */
 
+/** @license Material-UI v3.0.0-alpha.3
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
 /** @license React v0.19.1
  * scheduler.production.min.js
  *
