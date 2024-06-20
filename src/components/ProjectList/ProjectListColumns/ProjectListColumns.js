@@ -1,6 +1,6 @@
 import React from 'react';
 import '../index.scss';
-import tileData from '../tileData';
+import tileData from '../projects';
 import GitHub from '../../GithubBtn';
 
 function ProjectListColumns() {

@@ -78,6 +78,10 @@
     margin: auto;
   }
 
+  @include desktopL {
+    width: 100%;
+  }
+
   .title {
     padding: 0 5%;
 

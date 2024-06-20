@@ -20,6 +20,20 @@ $grey: #8d8d8d;
 $light: #fff;
 $purple: #a972cb;
 
+@mixin theme($arg) {
+    @if($arg == 'bmo') {
+        $color-main: #4aedc4; // #ffc732 Jake-Yellow
+        $color-main-dark: #14a37f; //#6dd4ba;
+        $color-sec: #ffeb3b; //#ffcd38
+        $color-tert: #e8583d; // #ff5d6a red-orange
+    } @else {
+        $color-main: #CF7793;
+        $color-main-dark: #893271;
+        $color-sec: #F1A5AD;
+        $color-tert: #AC5180;
+    }
+}
+
 $btn-border: 1px solid $color-main;
 $border: 2px solid $color-main-dark;
 
