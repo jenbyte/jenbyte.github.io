@@ -6,8 +6,19 @@ import fbOnboard from '../../images/projects/FBOnboardGiphy.gif';
 import R10 from '../../images/projects/R10.png';
 import calmversation from '../../images/projects/calmversation.png';
 import hackathon from '../../images/projects/hack4humanity.png';
+import foodDeliveryApp from '../../images/projects/src/images/projects/HungryHippo-Home.jpg';
 
-export const projects = [
+export const projects = [  
+  {
+    id: 7,
+    img: [foodDeliveryApp],
+    title: 'Hungry Hippo',
+    description:
+      'Feeling like a hungry, hungry hippo? This delivery app will help you quench your hungry!',
+    tech: 'React Native, Expo, TailwindCSS, Sanity.io',
+    github: 'https://github.com/jenbyte/Food-Delivery-App',
+    className: 'msb'
+  },
   {
     id: 6,
     img: [hackathon],
