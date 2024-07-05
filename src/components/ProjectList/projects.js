@@ -6,7 +6,7 @@ import fbOnboard from '../../images/projects/FBOnboardGiphy.gif';
 import R10 from '../../images/projects/R10.png';
 import calmversation from '../../images/projects/calmversation.png';
 import hackathon from '../../images/projects/hack4humanity.png';
-import foodDeliveryApp from '../../images/projects/src/images/projects/HungryHippo-Home.jpg';
+import foodDeliveryApp from '../../images/projects/HungryHippo-Home.jpg';
 
 export const projects = [  
   {
